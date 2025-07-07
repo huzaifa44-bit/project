@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+#container{
+    height: 90%;
+    width: 800px;
+    background-color: grey;
+    border:2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+gap: 20px;
+justify-content: space-around;
+text-align: center;
+}
+#container > div{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    line-height:100px;
+    text-align: center;
+    font-weight: bold;
+border-radius: 10px;
+}

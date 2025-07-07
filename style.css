@@ -1,0 +1,34 @@
+h2{
+    color: blueviolet;
+}
+h1{
+    color: rgb(165, 42, 58);
+}
+ h4{
+    color: aliceblue;
+    font-style: italic;
+ }
+
+button{
+    background-color: blanchedalmond;
+    color: brown;
+}
+#headingone{
+    color: brown;
+}
+#headingtwo{
+    color: crimson;
+}
+#headingthree{
+color:brown;
+}
+div{
+    border-color: black;
+    background-color: darkgreen;
+    height: 100px;
+    width: 100px;
+    border-style: dashed;
+    border-radius: 50%;
+    text-align: center;
+
+}

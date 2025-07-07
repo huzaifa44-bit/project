@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.border{
+    border: 1px transparent;
+}
+.border:hove
+r{
+    border: 1px solid white;
+}
+.logo {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZ5TIn7NBppEK3dGGm4DkdscCVJf6Yjj5QA&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 100px;
+}
+
+.nav-address {
+    margin-left: 20px;
+}
+
+.add-first {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.add-icon i {
+    margin-right: 5px;
+    color: white;
+}
+.add-second {
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-search{
+    display: flex;
+    background-color:rgba(205, 169, 50, 0.989) ;
+    border-radius: 4px;
+    justify-content: space-evenly;
+
+}
+.search-select{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+}
+.search-input{
+    width: 400px;
+    height: 30px;
+}
+.search-icon{
+    width: 40px;
+    align-items: center;
+    display: flex;
+    
+}
+
+
